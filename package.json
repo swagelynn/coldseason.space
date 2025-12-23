@@ -6,8 +6,7 @@
   "scripts": {
     "dev": "vite dev",
     "build": "vite build",
-    "preview": "vite preview",
-    "deploy": "npm run build && echo \"coldseason.space\" > build/CNAME && npx gh-pages -d build -t"
+    "preview": "vite preview"
   },
   "devDependencies": {
     "@sveltejs/adapter-auto": "^7.0.0",
