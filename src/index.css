@@ -1,0 +1,24 @@
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+	font-family: 'OCR-A';
+	src: url('/OCR-A.otf');
+}
+
+body {
+	font-family: 'OCR-A';
+	overflow-x: hidden;
+}
+
+img {
+	margin: 0px !important;
+}
+
+canvas {
+  height: 100vh !important;
+  width: 100vw !important;
+}

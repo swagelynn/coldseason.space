@@ -1,24 +1,31 @@
 {
   "name": "coldseason",
-  "private": true,
-  "version": "0.0.1",
-  "type": "module",
   "scripts": {
-    "dev": "vite dev",
+    "start": "vite",
     "build": "vite build",
-    "preview": "vite preview"
-  },
-  "devDependencies": {
-    "@sveltejs/adapter-auto": "^7.0.0",
-    "@sveltejs/kit": "2.25.0",
-    "@sveltejs/vite-plugin-svelte": "^6.2.1",
-    "svelte": "^5.45.6",
-    "svelte-check": "^4.3.4",
-    "typescript": "^5.9.3",
-    "vite": "^7.2.6"
+    "post": "gh-pages -d dist",
+    "deploy": "./deploy.sh"
   },
   "dependencies": {
-    "@sveltejs/adapter-static": "^3.0.10",
-    "gh-pages": "^6.3.0"
+    "@catppuccin/tailwindcss": "^0.1.6",
+    "@tailwindcss/typography": "^0.5.19",
+    "@vitejs/plugin-react": "^4.3.1",
+    "gh-pages": "^6.1.1",
+    "ogl": "^1.0.11",
+    "react-markdown": "^10.1.0",
+    "tailwind": "^4.0.0",
+    "three": "^0.182.0",
+    "tsx": "^4.19.1",
+    "typescript": "^5.6.2",
+    "vite": "^5.4.7"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.8",
+    "@types/react-dom": "^18.3.0",
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.4.47",
+    "react": "npm:@preact/compat",
+    "react-dom": "npm:@preact/compat",
+    "tailwindcss": "^3.4.12"
   }
 }
